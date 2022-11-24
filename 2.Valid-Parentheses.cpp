@@ -19,10 +19,10 @@ public:
 			//check if stack empty or given parentheses valid or not
 
 			else {
-				if (st.empty() or  st.top() =='('  &&  i!=')' 
-                 or  st.top() == '{' && i != '}' or st.top() == '[' && i != ']'  ) {
-				
-                return false;
+				if (st.empty() or  st.top() == '('  &&  i != ')'
+				        or  st.top() == '{' && i != '}' or st.top() == '[' && i != ']'  ) {
+
+					return false;
 
 				}
 				else {
@@ -33,6 +33,6 @@ public:
 				}
 			}
 		}
-		return st.empty(); //check if there are still unpair string 
+		return st.empty(); //check if there are still unpair string
 	}
 };
