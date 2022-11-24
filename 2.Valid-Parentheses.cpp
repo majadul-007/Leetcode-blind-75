@@ -33,6 +33,6 @@ public:
 				}
 			}
 		}
-		return st.empty(); //check if there are still unpair string
+		return st.size() == 0; //check if there are still unpair string
 	}
 };
