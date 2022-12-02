@@ -17,8 +17,7 @@ public:
 			}
 
 			//check if stack empty or given parentheses valid or not
-
-			else {
+		else {
 				if (st.empty() or  st.top() == '('  &&  i != ')'
 				        or  st.top() == '{' && i != '}' or st.top() == '[' && i != ']'  ) {
 
@@ -28,7 +27,6 @@ public:
 				else {
 
 					// if it is valid then pop it from stack and traverse next string
-
 					st.pop();
 				}
 			}
