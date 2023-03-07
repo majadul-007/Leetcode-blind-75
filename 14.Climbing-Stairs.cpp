@@ -16,7 +16,7 @@ public:
 
     for(int i=3; i<=n; i++){
 
-        //store the sum value of previous value of n and values before that
+        //store the sum of previous value of n and values before that
 
         dp[i] = dp[i-1]+ dp[i-2];
 
