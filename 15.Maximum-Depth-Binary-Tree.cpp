@@ -24,7 +24,7 @@ public:
         int lt = maxDepth(root->left);
         int rt = maxDepth(root->right);
 
-        //return the max value of from root  node
+        //return the max value from root  node
 
         return max(lt, rt) + 1;
         
